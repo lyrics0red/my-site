@@ -1,0 +1,321 @@
+body{
+    background-color: blue;
+    font-family: 'Arial';
+}
+.beginning{
+    height: 600px;
+    width: 100%;
+    background-color: #5b36ff;
+    margin-bottom: 60px;
+    transition: 0.8s;
+}
+.beginning:hover{
+    background-color: purple;
+}
+.beginning img{
+    display: inline-block;
+    width: 50%;
+}
+.beginning .info{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    background-color:
+}
+h1 {
+    color: red;
+    font-size: 60px;
+}
+.beginning p{
+    font-size: 50px;
+    color: greenyellow;
+}
+.beginning i{
+    margin-right: 10px;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: darkblue;
+    vertical-align:bottom;
+}
+.blocks {
+    text-align: center;
+    vertical-align: middle;
+}
+.block{
+    display: inline-block;
+    width: 33%;
+    height: 100px;
+    color: red;
+    font-size: 35px;
+    transition: 0.8s;
+}
+.block p{
+    margin-left: 15px; 
+}
+.block i{
+    margin-right: 15px;
+}
+.block:hover{
+    background-color: white;
+}
+.block:hover p{
+    color: black;
+}
+.block:hover a{
+    color: black;
+}
+.block a{
+    color: red;
+    text-decoration: none;
+}
+Nav {
+    border-radius: 30px;
+    transition: 0.8s;
+    background-color: #5b36ff;
+    width: 90%;
+    margin: 60px auto;
+    height: 300px;
+    box-shadow: 10px 5px 4px 2px black;
+}
+Nav h2{
+    color: red;
+    font-size: 40px;
+    margin-left: 40px;
+    text-align: center;
+}
+Nav ul{
+    margin-left: 40px;
+}
+Nav a{
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 20px;
+}
+Nav:hover{
+    background-color: purple;
+    transform: scale(1.1, 1.1);
+}
+Nav .one{
+    width: 50%;
+    vertical-align: top;
+    display: inline-block;
+}
+Nav img{
+    display: inline-block;
+    margin-right: 30px;
+    width: 400px;
+}
+Article{
+    border-radius: 30px;
+    transition: 0.8s;
+    background-color: #5b36ff;
+    margin: 60px auto;
+    box-shadow: 10px 5px 4px 2px black;
+}
+Article:hover{
+    background-color: purple;
+    transform: scale(1.1, 1.1);
+}
+
+Article a{
+    text-align: center;
+    color: red;
+    text-decoration: none;
+}
+.introdution{
+    height: 150px;
+}
+.introdution h2{
+    text-align: center;
+    color: red;
+}
+.introdution p{
+    text-align: center;
+    color: greenyellow;
+}
+.matrix .one{
+    vertical-align: top;
+}
+.matrix h2{
+    text-align: center;
+    color: red;
+}
+.matrix p{
+    text-align: center;
+    color: greenyellow;
+}
+.matrix img{
+    height: 350px;
+}
+.steel .one{
+    vertical-align: top;
+}
+.steel h2{
+    text-align: center;
+    color: red;
+}
+.steel p{
+    text-align: center;
+    color: greenyellow;
+}
+.steel img{
+    height: 320px;
+}
+.ocean .one{
+    vertical-align: top;
+}
+.ocean h2{
+    text-align: center;
+    color: red;
+}
+.ocean p{
+    text-align: center;
+    color: greenyellow;
+}
+.ocean img{
+    height: 480px;
+}
+.blade .one{
+    vertical-align: top;
+}
+.blade h2{
+    text-align: center;
+    color: red;
+}
+.blade p{
+    text-align: center;
+    color: greenyellow;
+}
+.blade img{
+    height: 480px;
+}
+.mainheader{
+    color: greenyellow;
+    font-size: 40px;
+    text-align: center;
+}
+Footer{
+    background-color: #5b36ff;
+    color: white;
+    width: 90%;
+    height: 250px;
+    margin: 20px auto;
+    box-shadow: 10px 5px 4px 2px black;
+    transition: 0.8s;
+    border-radius: 30px
+}
+Footer .info{
+    text-align: center;
+    color: greenyellow;
+    font-size: 25px;
+}
+Footer:hover{
+    background-color: purple;
+    transform: scale(1.1, 1.1);  
+}
+a {
+    color: red;
+}
+button {
+    position: fixed;
+    right: 15px;
+    bottom: 40px;
+    background-color: #5b36ff;
+    border-radius: 10px;
+    color: red
+}
+button a{
+    text-decoration: none;
+    color: red;
+}
+@media (min-width: 1024px){
+    Article h2{
+        font-size: 32px;
+    }
+    Nav .content{
+        display: inline-block;
+    }
+    Nav img{
+        display: inline-block;
+        height: 300px;
+        width: 300px;
+    }
+    .block {
+        display: inline-block;
+    }
+    .one {
+        display: inline-block;
+        width: 40%;
+        margin-left: 50px;
+        margin-right: 80px;
+    }
+    Article{
+        width: 90%;
+        margin: 60px auto;
+    }
+    Article img{
+        display: inline-block;
+        width: 40%;
+    }
+    Article p{
+        text-align: center;
+        font-size: 25px;
+    }
+}
+@media (max-width: 1023px){
+    .menu{
+        height: 400px;
+        width: 100%;
+    }
+    Nav{
+        height: 700px;
+    }
+    Nav .content{
+        width: 100%;
+        height: 300px;
+    }
+    Nav img{
+        height: 450px;
+        width: 90%;
+    }
+    .blocks{
+        height: 400px;
+        vertical-align: middle;
+    }
+    .block
+    {
+        width: 100%;
+        height: 110px;
+        margin-bottom: 20px;
+    }
+    .beginning{
+        height: 1100px;
+    }
+    .beginning img{
+        width: 100%;
+        height: 500px;
+    }
+    .beginning .info{
+        width: 100%;
+        height: 500px;
+    }
+    Article{
+        width: 100%;
+    }
+    Article img{
+        margin: 30px auto;
+    }
+    Article p{
+        font-size: 17px;
+    }
+    .one{
+        width: 90%;
+        text-align: center;
+    }
+    Article img{
+        width: 90%;
+    }
+}

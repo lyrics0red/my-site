@@ -1,0 +1,307 @@
+body{
+    background-color: blue;
+    font-family: "Arial";
+}
+.beginning{
+    height: 600px;
+    width: 100%;
+    background-color: #5b36ff;
+    margin-bottom: 60px;
+    transition:0.8s;
+}
+.beginning:hover{
+    background-color: purple;
+}
+.beginning img{
+    width: 50%;
+    height: 600px;
+    display: inline-block;
+}
+.beginning .info{
+    width: 49%;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    background-color:
+}
+h1 {
+    color: red;
+    font-size: 60px;
+}
+.beginning p{
+    font-size: 50px;
+    color: greenyellow;
+}
+.beginning i{
+    margin-right: 10px;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: darkblue;
+    vertical-align:bottom;
+}
+Nav{
+    width: 89%;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #5b36ff;
+    border-radius: 30px;
+    transition: 0.8s;
+    padding-right: 30px;
+    box-shadow: 10px 5px 4px 2px black;
+}
+Nav:hover{
+    background-color: purple;
+    transform: scale(1.1, 1.1);
+}
+Nav img{
+    display: inline-block;
+    margin-right: 30px;
+    height: 300px;
+    width: 400px;
+}
+.content{
+    margin-left: 50px;
+    width: 45%;
+    display: inline-block;
+    height: 150px;
+    vertical-align: top;
+}
+Nav h2{
+    font-size: 32px;
+    color: red;
+}
+a {
+    color: greenyellow;
+    text-decoration: none;
+}
+.block a{
+    color: red;
+    text-decoration: none;
+}
+Article{
+    border-radius: 30px;
+    transition: 0.8s;
+    background-color: #5b36ff;
+    margin: 60px auto;
+    box-shadow: 10px 5px 4px 2px black;
+}
+Article:hover{
+    background-color: purple;
+    transform: scale(1.1, 1.1);
+}
+.blocks {
+    text-align: center;
+    vertical-align: middle;
+}
+.block{
+    display: inline-block;
+    width: 33%;
+    height: 100px;
+    color: red;
+    font-size: 35px;
+    transition: 0.8s;
+}
+.block p{
+    margin-left: 15px; 
+}
+.block i{
+    margin-right: 15px;
+}
+.block:hover{
+    background-color: white;
+}
+.block:hover p{
+    color: black;
+}
+.block:hover a{
+    color: black;
+}
+.whatisit h2{
+    color: red;
+    text-align: center;
+}
+.whatisit p{
+    color: greenyellow;
+    text-align: center;
+}
+.whatisit .one {
+    vertical-align: top;
+}
+.whatisit img{
+    height: 500px;
+}
+.future p{
+    color: greenyellow;
+}
+.future h2{
+    color: red;
+    text-align: center;
+}
+.future .one{
+    vertical-align: top;
+}
+.future img{
+    height: 650px;
+}
+button {
+    position: fixed;
+    right: 15px;
+    bottom: 40px;
+    background-color: #5b36ff;
+    border-radius: 10px;
+}
+button a{
+    color: red;
+}
+.industry .one{
+    vertical-align: top;
+}
+.industry h2{
+    color: red;
+    text-align: center;
+}
+.industry p{
+    color: greenyellow;
+}
+.industry img{
+    height: 420px;
+}
+.kobot .one {
+    vertical-align: top;
+}
+.kobot h2{
+    color: red;
+    text-align: center;
+}
+.kobot p{
+    color: greenyellow;
+}
+.kobot img{
+    height: 300px;
+}
+.service .one {
+    vertical-align: top;
+}
+.service h2{
+    color: red;
+    text-align: center;
+}
+.service p{
+    color: greenyellow;
+}
+.service img{
+    height: 510px;
+}
+Footer{
+    background-color: #5b36ff;
+    color: white;
+    width: 90%;
+    height: 250px;
+    margin: 20px auto;
+    box-shadow: 10px 5px 4px 2px black;
+    transition: 0.8s;
+    border-radius: 30px
+}
+Footer .info{
+    text-align: center;
+    color: greenyellow;
+    font-size: 25px;
+}
+Footer:hover{
+    background-color: purple;
+    transform: scale(1.1, 1.1);  
+}
+@media (min-width: 1025px){
+    Nav .content{
+        display: inline-block;
+    }
+    h2{
+        font-size: 32px;
+    }
+    .content li{
+        font-size: 25px;
+    }
+    Nav img{
+        display: inline-block;
+    }
+    .block {
+        display: inline-block;
+    }
+    .one {
+        display: inline-block;
+        width: 40%;
+        margin-left: 50px;
+        margin-right: 80px;
+    }
+    Article{
+        width: 90%;
+    }
+    Article img{
+        display: inline-block;
+        width: 40%;
+    }
+    Article p{
+        text-align: center;
+        font-size: 25px;
+    }
+}
+@media (max-width: 1023px){
+    .menu{
+        height: 400px;
+        width: 100%;
+    }
+    Nav{
+        height: 700px;
+    }
+    Nav .content{
+        width: 100%;
+        height: 300px;
+    }
+    Nav img{
+        height: 300px;
+        width: 90%;
+        
+    }
+    .blocks{
+        height: 400px;
+        vertical-align: middle;
+    }
+    .block
+    {
+        width: 100%;
+        height: 110px;
+        margin-bottom: 20px;
+    }
+    .beginning{
+        height: 1100px;
+    }
+    .beginning img{
+        width: 100%;
+        height: 500px;
+    }
+    .beginning .info{
+        width: 100%;
+        height: 500px;
+    }
+    Article{
+        width: 100%;
+    }
+    Article img{
+        margin: 30px auto;
+    }
+    Article p{
+        font-size: 17px;
+    }
+    .content li{
+        font-size: 21px;
+    }
+    .one{
+        width: 90%;
+        text-align: center;
+    }
+    Article img{
+        width: 90%;
+    }
+}
